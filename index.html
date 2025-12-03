@@ -4,17 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akvyit's Portfolio</title>
-    <style>
-        /* 簡単なデザイン設定 */
-        body { font-family: "Helvetica Neue", Arial, sans-serif; color: #333; line-height: 1.6; margin: 0; padding: 0; background-color: #f9f9f9; }
-        header { background-color: #333; color: white; padding: 20px 0; text-align: center; }
-        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
-        h1 { margin: 0; }
-        h2 { border-bottom: 2px solid #333; padding-bottom: 10px; margin-top: 40px; }
-        .project { background: white; border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
-        .project h3 { margin-top: 0; color: #007acc; }
-        footer { text-align: center; padding: 20px; color: #666; font-size: 0.8rem; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -26,27 +16,37 @@
 <div class="container">
     <section>
         <h2>About Me</h2>
-        <p>はじめまして。現在、ブラウザ拡張機能やweb関係を学習・制作しています。「便利なものを自作する」ために活動中です。</p>
+        <p>はじめまして。現在、ブラウザ拡張機能やWeb開発を学習・制作しています。「便利なものを自作する」をモットーに活動中です。</p>
     </section>
 
     <section>
         <h2>Works</h2>
         
         <div class="project">
-            <h3>🐱 3D Cat Extension (開発中)</h3>
-            <p>ブラウザの右端に常駐する「お邪魔ねこ」を表示する拡張機能。ユーザーが自由に模様をカスタマイズできる3Dモデルを採用予定。</p>
+            <h3>🐱 うち猫(仮) (検討中)</h3>
+            <p>ブラウザの右端に常駐する「ねこ」を表示する拡張機能。ユーザーが自由に模様をカスタマイズできる3Dモデルを採用予定。</p>
             <p><strong>使用技術:</strong> JavaScript, 3D Modeling</p>
         </div>
 
         <div class="project">
-            <h3>🏠 SUUMO 築年数表示ツール</h3>
+            <h3>
+                <a href="https://github.com/akvyit/suumo-extension" target="_blank">
+                    🏠 SUUMO 築年数表示ツール
+                </a>
+            </h3>
             <p>不動産サイトSUUMOで、完成時期だけでなく「築年数」を直感的に表示させるブラウザ拡張機能。</p>
             <p><strong>使用技術:</strong> JavaScript, Chrome Extensions API</p>
+            <p>🔗 <a href="https://github.com/akvyit/suumo-extension" target="_blank">GitHubリポジトリを見る</a></p>
         </div>
 
         <div class="project">
-            <h3>🔍️PopSearch - 選択した文字をお気に入りのサイトですぐに検索</h3>
-            <p>ブラウザ上で選択した文字をあらゆるサイトで検索できます。あらかじめ登録サれているプリセットURLのに加えて、お気に入りのサイトを追加できます。</p>
+            <h3>
+                <a href="#" target="_blank">
+                    🔍 PopSearch
+                </a>
+            </h3>
+            <p>選択した文字をお気に入りのサイトですぐに検索できる拡張機能。プリセットURLに加え、お気に入りのサイトを追加可能。</p>
+            <p><strong>使用技術:</strong> JavaScript</p>
         </div>
     </section>
 
