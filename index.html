@@ -3,16 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Akvyit's Portfolio</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; }
-        h1 { color: #333; }
-        p { color: #666; }
+        /* 簡単なデザイン設定 */
+        body { font-family: "Helvetica Neue", Arial, sans-serif; color: #333; line-height: 1.6; margin: 0; padding: 0; background-color: #f9f9f9; }
+        header { background-color: #333; color: white; padding: 20px 0; text-align: center; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { margin: 0; }
+        h2 { border-bottom: 2px solid #333; padding-bottom: 10px; margin-top: 40px; }
+        .project { background: white; border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
+        .project h3 { margin-top: 0; color: #007acc; }
+        footer { text-align: center; padding: 20px; color: #666; font-size: 0.8rem; }
     </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>ここは私のポートフォリオサイトです。</p>
-    <p>現在準備中...</p>
+
+<header>
+    <h1>Akvyit's Portfolio</h1>
+    <p>エンジニア / 開発者</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>About Me</h2>
+        <p>はじめまして。現在、ブラウザ拡張機能やモバイルアプリの開発を学習・制作しています。「便利なものを自作する」をモットーに活動中です。</p>
+    </section>
+
+    <section>
+        <h2>Works</h2>
+        
+        <div class="project">
+            <h3>🐱 3D Cat Extension (開発中)</h3>
+            <p>ブラウザの右端に常駐する「お邪魔ねこ」を表示する拡張機能。ユーザーが自由に模様をカスタマイズできる3Dモデルを採用予定。</p>
+            <p><strong>使用技術:</strong> JavaScript, 3D Modeling</p>
+        </div>
+
+        <div class="project">
+            <h3>🏠 SUUMO 築年数表示ツール</h3>
+            <p>不動産サイトSUUMOで、完成時期だけでなく「築年数」を直感的に表示させるブラウザ拡張機能。</p>
+            <p><strong>使用技術:</strong> JavaScript, Chrome Extensions API</p>
+        </div>
+
+        <div class="project">
+            <h3>📱 iOS App Development</h3>
+            <p>Windows環境でのiOSアプリ開発手法を研究中。</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>GitHub: <a href="https://github.com/akvyit" target="_blank">@akvyit</a></p>
+    </section>
+</div>
+
+<footer>
+    &copy; 2025 Akvyit
+</footer>
+
 </body>
 </html>
